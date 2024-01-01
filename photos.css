@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.main1{
+    height: 70%;
+    width: 80%;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow-y: scroll;
+    gap: 1vw;
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: 1vw;
+}
+.main img{
+    height: 15vw;
+    width: 14vw;
+}
+@media (max-width: 600px){
+    .main1 img{
+        height: 40vw;
+        width: 25vw;
+    }
+}
