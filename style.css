@@ -109,6 +109,9 @@ button{
     border-radius: 20px;
     background-color: transparent;
 }
+button:active{
+    text-decoration: underline;
+}
 .nav-sidebar{
     position: fixed;
     top: 0;
