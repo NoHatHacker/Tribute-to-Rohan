@@ -80,7 +80,7 @@ html,body{
     padding: 8.5vw;
     }
     .video-grid{
-        width: 100%;
+        width: 98%;
         gap: 0.5vw;
         flex-wrap: wrap;
         border-top: 2px solid grey;
